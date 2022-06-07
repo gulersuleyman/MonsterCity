@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8904107030969080504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8904107030969080510}
+  - component: {fileID: 8904107030969080511}
+  - component: {fileID: 8904107030969080509}
+  - component: {fileID: 8904107030969080508}
+  m_Layer: 0
+  m_Name: CameraFollowTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8904107030969080510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904107030969080504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.89, y: 0.28, z: -77.619995}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8904107030969080511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904107030969080504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5103704f65370614981de1b953a4d133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+--- !u!114 &8904107030969080509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904107030969080504}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4126d9226bf9b644bcf1503f2024d4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  work: 1
+  objectB: {fileID: 0}
+  willTrack_elseCarry_: 1
+  teleportNow: 0
+  faceTheTarget: 0
+  turn_speed: 20
+  faceX: 0
+  faceY: 0
+  faceZ: 0
+  offset: {x: 0, y: 0, z: 0}
+  getSceneOffsets: 1
+  keepCurrentPositions: 1
+  ifNotFixedX: 0
+  ifNotFixedY: 0
+  ifNotFixedZ: 0
+  trackX: 0
+  trackY: 1
+  trackZ: 1
+  useRelativeOffset: 0
+  relativeOffset: {x: 0, y: 0, z: 0}
+  useLimitationX: 0
+  trackXinBetween:
+  - 0
+  - 0
+  useLimitationY: 0
+  trackYinBetween:
+  - 0
+  - 0
+  useLimitationZ: 0
+  trackZinBetween:
+  - 0
+  - 0
+  trackSpeed: 500
+  useTransformPos: 1
+  useMoveTowards: 0
+  useLerp: 0
+  useTransformTranslate: 0
+  useVelocity: 0
+  useTwoStagePower: 0
+  stageChangeDistance: 1
+  divideMainPowerBY: 2
+  freePosX: 0
+  freePosY: 0
+  freePosZ: 0
+--- !u!114 &8904107030969080508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904107030969080504}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e30efaac3dc824c8f570f1490bb172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  work: 1
+  objA: {fileID: 0}
+  objB: {fileID: 0}
+  useX: 1
+  useY: 1
+  useZ: 1
+  PositionBetween: 79.5
+  fixedOffsetToOneOfThem: 0
+  AIsOffsetElseB: 1
+  fixedOffset: 0
+  UseTransitionSpeed: 0
+  useLerpElseMoveTowards: 1
+  transitionSpeed: 0

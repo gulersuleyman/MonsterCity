@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - build
+  - frontsurface
+  - buildFinish
+  - ground
+  - bridge
+  - obstacle
+  - Water
+  - side
+  - "F\u0130GHTMODE"
+  - groundRoof
+  - boss
+  - enemyDestruct
+  - fall
+  - point
+  - speedFresh
+  - Lside
+  - Building
+  - Human
+  - Fight
+  - ParticleManager
+  - iceParticle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - surface
+  - leftright
+  - build
+  - forward
+  - roots
+  - player
+  - Ground
+  - limit
+  - foot
+  - roofGround
+  - avatarCollider
+  - Destroyer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
